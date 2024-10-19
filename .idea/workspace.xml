@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="main.java deleted">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/FibonacciGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/FibonacciGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="user/orhan/fibNum-2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,22 +39,22 @@
     &quot;assignee&quot;: &quot;orhankalayci2017&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/orhankalayci2017/FibNum2024Oct19-2.git",
-    "accountId": "40c59564-6b3e-448a-8fca-c8cf1bf306f3"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/orhankalayci2017/FibNum2024Oct19-2.git&quot;,
+    &quot;accountId&quot;: &quot;40c59564-6b3e-448a-8fca-c8cf1bf306f3&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "orhankalayci2017",
-    "repository": "FibNum2024Oct19-2"
+    &quot;owner&quot;: &quot;orhankalayci2017&quot;,
+    &quot;repository&quot;: &quot;FibNum2024Oct19-2&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -68,9 +69,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.FibonacciGeneratorTest.executor": "Coverage",
+    "JUnit.FibonacciGeneratorTest.testFibonacciTimeoutFor44.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "user/orhan/fibNum-3",
+    "git-widget-placeholder": "user/orhan/fibnum192245",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/orhankalayci2/IdeaProjects/temp/fibnum2/FibNum2025Oct19-2/FibNum2025Oct19-2/src/main/java/com/FibNum2025Oct19/Main.java"
   }
@@ -81,7 +83,7 @@
       <recent name="com.FibNum2025Oct19-2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FibonacciGeneratorTest">
     <configuration name="FibonacciGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FibNum2025Oct19-2" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,9 +93,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FibonacciGeneratorTest.testFibonacciTimeoutFor44" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FibNum2025Oct19-2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciGeneratorTest" />
+      <option name="METHOD_NAME" value="testFibonacciTimeoutFor44" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FibonacciGeneratorTest" />
+        <item itemvalue="JUnit.FibonacciGeneratorTest.testFibonacciTimeoutFor44" />
       </list>
     </recent_temporary>
   </component>
