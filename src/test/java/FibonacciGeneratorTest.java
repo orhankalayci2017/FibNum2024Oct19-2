@@ -7,6 +7,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class FibonacciGeneratorTest {
 
@@ -33,4 +34,21 @@ public class FibonacciGeneratorTest {
         int expected = 701408733;  // The expected value of F(44)
         assertEquals(expected, fibonacciGenerator.getFibNum(44));
     }
+
+    @Test
+    public void testNegativeIndexThrowsException() {
+        // Test that passing a negative index throws IllegalArgumentException
+        assertThrows(IllegalArgumentException.class, () -> {
+            fibonacciGenerator.getFibNum(-5);  // Using a negative index
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            fibonacciGenerator.getFibNum(-1);  // Using a negative index
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            fibonacciGenerator.getFibNum(-99);  // Using a negative index
+        });
+    }
+
 }
