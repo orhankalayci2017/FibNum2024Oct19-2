@@ -20,4 +20,9 @@ public class FibonacciGeneratorTest {
     public void testFibonacciOfTwo() {
         assertEquals(1, fibonacciGenerator.getFibNum(2), "Fibonacci of 2 should be 1");
     }
+
+    @Test
+    public void testFibonacciOfThree() {
+        assertEquals(2, fibonacciGenerator.getFibNum(3), "Fibonacci of 2 should be 1");
+    }
 }
