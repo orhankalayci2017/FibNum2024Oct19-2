@@ -6,6 +6,7 @@ public class FibonacciGenerator {
     }
 
     private int recursiveMethod (int i) {
+        if (i < 0) return -1;
         if (i ==0) return 0;
         if (i ==1) return 1;
         return getFibNum(i-1) + getFibNum(i-2);
