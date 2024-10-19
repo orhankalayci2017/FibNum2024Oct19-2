@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/FibonacciGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="first tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,23 +18,29 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "orhankalayci2017"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;orhankalayci2017&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/orhankalayci2017/FibNum2024Oct19-2.git",
-    "accountId": "40c59564-6b3e-448a-8fca-c8cf1bf306f3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/orhankalayci2017/FibNum2024Oct19-2.git&quot;,
+    &quot;accountId&quot;: &quot;40c59564-6b3e-448a-8fca-c8cf1bf306f3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2nfM3ENuoP5tqCo2ZIrLnYmfIJs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,11 +53,18 @@
   "keyToString": {
     "JUnit.FibonacciGeneratorTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "user/orhan/fibNum-1",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/orhankalayci2/IdeaProjects/temp/fibnum2/FibNum2025Oct19-2/FibNum2025Oct19-2/src/main/java/com/FibNum2025Oct19/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.FibNum2025Oct19" />
+      <recent name="com.FibNum2025Oct19-2" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="FibonacciGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FibNum2025Oct19-2" />
@@ -89,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729359696224</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first tests">
+      <option name="closed" value="true" />
+      <created>1729360592293</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729360592293</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,7 +122,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="first tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="first tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
