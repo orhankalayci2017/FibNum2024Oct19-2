@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="Recursive Calculation">
+    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="main.java deleted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="user/orhan/fibNum-1" />
+        <entry key="$PROJECT_DIR$" value="user/orhan/fibNum-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,10 +67,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.FibonacciGeneratorTest.executor": "Run",
+    "JUnit.FibonacciGeneratorTest.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "user/orhan/fibNum-2",
+    "git-widget-placeholder": "user/orhan/fibNum-3",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/orhankalayci2/IdeaProjects/temp/fibnum2/FibNum2025Oct19-2/FibNum2025Oct19-2/src/main/java/com/FibNum2025Oct19/Main.java"
   }
@@ -127,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729360960687</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test coverage checks  added">
+      <option name="closed" value="true" />
+      <created>1729361758967</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729361758967</updated>
+    </task>
+    <task id="LOCAL-00005" summary="main.java deleted">
+      <option name="closed" value="true" />
+      <created>1729361981365</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729361981365</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,20 +164,11 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="first tests" />
     <MESSAGE value="Recursive Calculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursive Calculation" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Test coverage checks  added" />
+    <MESSAGE value="main.java deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="main.java deleted" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FibNum2025Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729361143113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/FibNum2025Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729362396482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

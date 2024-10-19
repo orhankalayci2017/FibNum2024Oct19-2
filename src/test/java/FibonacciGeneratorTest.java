@@ -1,28 +1,36 @@
 import com.FibNum2025Oct19.FibonacciGenerator;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+
+import java.util.concurrent.TimeUnit;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FibonacciGeneratorTest {
 
     private final FibonacciGenerator fibonacciGenerator = new FibonacciGenerator();
 
-    @Test
-    public void testFibonacciOfZero() {
-        assertEquals(0, fibonacciGenerator.getFibNum(0), "Fibonacci of 0 should be 0");
+    @ParameterizedTest
+    @CsvSource({
+            "0, 0",   // F(0) = 0
+            "1, 1",   // F(1) = 1
+            "2, 1",   // F(2) = 1
+            "3, 2",   // F(3) = 2
+            "4, 3",   // F(4) = 3
+            "5, 5",   // F(5) = 5
+            "6, 8"    // F(6) = 8 (just an additional case for extended testing)
+    })
+    public void testFibonacci(int index, int expected) {
+        assertEquals(expected, fibonacciGenerator.getFibNum(index),
+                "Fibonacci of " + index + " should be " + expected);
     }
 
     @Test
-    public void testFibonacciOfOne() {
-        assertEquals(1, fibonacciGenerator.getFibNum(1), "Fibonacci of 1 should be 1");
-    }
-
-    @Test
-    public void testFibonacciOfTwo() {
-        assertEquals(1, fibonacciGenerator.getFibNum(2), "Fibonacci of 2 should be 1");
-    }
-
-    @Test
-    public void testFibonacciOfThree() {
-        assertEquals(2, fibonacciGenerator.getFibNum(3), "Fibonacci of 2 should be 1");
+    @Timeout(value = 200, unit = TimeUnit.MILLISECONDS)  // Timeout after 200 ms
+    public void testFibonacciTimeoutFor44() {
+        int expected = 701408733;  // The expected value of F(44)
+        assertEquals(expected, fibonacciGenerator.getFibNum(44));
     }
 }
