@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="first tests" />
+    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="Recursive Calculation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="user/orhan/fibNum-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,12 +35,22 @@
     &quot;assignee&quot;: &quot;orhankalayci2017&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/orhankalayci2017/FibNum2024Oct19-2.git&quot;,
-    &quot;accountId&quot;: &quot;40c59564-6b3e-448a-8fca-c8cf1bf306f3&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/orhankalayci2017/FibNum2024Oct19-2.git",
+    "accountId": "40c59564-6b3e-448a-8fca-c8cf1bf306f3"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "orhankalayci2017",
+    "repository": "FibNum2024Oct19-2"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -54,7 +67,7 @@
     "JUnit.FibonacciGeneratorTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "user/orhan/fibNum-1",
+    "git-widget-placeholder": "user/orhan/fibNum-2",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/orhankalayci2/IdeaProjects/temp/fibnum2/FibNum2025Oct19-2/FibNum2025Oct19-2/src/main/java/com/FibNum2025Oct19/Main.java"
   }
@@ -106,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729360592293</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Recursive Calculation">
+      <option name="closed" value="true" />
+      <created>1729360960687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729360960687</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="first tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="first tests" />
+    <MESSAGE value="Recursive Calculation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursive Calculation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -135,5 +157,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FibNum2025Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729361143113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
