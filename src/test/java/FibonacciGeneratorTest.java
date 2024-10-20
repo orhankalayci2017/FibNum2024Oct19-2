@@ -56,4 +56,19 @@ public class FibonacciGeneratorTest {
             }
         }
     }
+
+    @ParameterizedTest
+    @MethodSource("provideFibonacciStrategies")
+    public void testMaximumIndices(FibonacciGenerator fibonacciGenerator) {
+        int[] tooBigIndices = {46, 50, 99};  // Array of negative indices to test
+
+        for (int index : tooBigIndices) {
+            try {
+                fibonacciGenerator.getFibNum(index);  // Pass a negative index
+                fail("Expected IllegalArgumentException to be thrown for index: " + index);  // Fail if no exception is thrown
+            } catch (IllegalArgumentException e) {
+                assertEquals("Index cannot exceed the Maximum Index (45)", e.getMessage());  // Check the error message
+            }
+        }
+    }
 }

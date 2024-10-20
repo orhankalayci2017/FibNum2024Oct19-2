@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="main.java deleted">
+    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="coverage limit reduced to 50%">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/CheckIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/FibonacciGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/FibonacciGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,7 @@
     "JUnit.FibonacciGeneratorTest.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "2024Oct20-1535",
+    "git-widget-placeholder": "#9 on 2024Oct20-1535",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/orhankalayci2/IdeaProjects/temp/fibnum2/FibNum2025Oct19-2/FibNum2025Oct19-2/src/main/java/com/FibNum2025Oct19/Main.java"
   }
@@ -156,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729361981365</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="coverage limit reduced to 50%">
+      <option name="closed" value="true" />
+      <created>1729428496933</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729428496933</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,10 +186,11 @@
     <MESSAGE value="Recursive Calculation" />
     <MESSAGE value="Test coverage checks  added" />
     <MESSAGE value="main.java deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="main.java deleted" />
+    <MESSAGE value="coverage limit reduced to 50%" />
+    <option name="LAST_COMMIT_MESSAGE" value="coverage limit reduced to 50%" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FibNum2024Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729427865086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/FibNum2024Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729431096781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/FibNum2025Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729362396482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

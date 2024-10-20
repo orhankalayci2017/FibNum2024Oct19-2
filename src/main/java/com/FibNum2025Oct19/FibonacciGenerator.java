@@ -2,7 +2,7 @@ package com.FibNum2025Oct19;
 
 public class FibonacciGenerator {
 
-    private FibonacciCalculator fibonacciCalculator;
+    private final FibonacciCalculator fibonacciCalculator;
 
     public FibonacciGenerator() {
         fibonacciCalculator = new IterativeFibonacciCalculator() ;
@@ -13,9 +13,10 @@ public class FibonacciGenerator {
     }
 
     public int getFibNum(int index) {
-        if (index < 0) {
-            throw new IllegalArgumentException("Index cannot be negative");
-        }
+
+        CheckIndex checkIndex = new CheckIndex();
+        checkIndex.ifValid(index);
+
         return fibonacciCalculator.calculate(index);
     }
 }
