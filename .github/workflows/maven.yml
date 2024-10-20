@@ -25,7 +25,7 @@ jobs:
 
     # Step 3: Build the project and run tests with code coverage
     - name: Build and Run Tests with Coverage
-      run: mvn clean verify --file pom.xml
+      run: mvn -e clean verify --file pom.xml
 
     # Step 4: Upload JaCoCo code coverage report
     - name: Upload Coverage Report
