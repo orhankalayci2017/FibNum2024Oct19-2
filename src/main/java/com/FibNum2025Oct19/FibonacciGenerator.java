@@ -12,10 +12,6 @@ public class FibonacciGenerator {
         this.fibonacciCalculator = fibonacciCalculator ;
     }
 
-    public void setFibonacciCalculator(FibonacciCalculator fibonacciCalculator) {
-        this.fibonacciCalculator = fibonacciCalculator;
-    }
-
     public int getFibNum(int index) {
         if (index < 0) {
             throw new IllegalArgumentException("Index cannot be negative");

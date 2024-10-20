@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="coverage limit reduced to 60%" />
+    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="main.java deleted">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +19,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="user/orhan/fibnum20Ekim1307" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,10 +68,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.FibonacciGeneratorTest.executor": "Coverage",
-    "JUnit.FibonacciGeneratorTest.testFibonacciTimeoutFor44.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "user/orhan/fibnum20Ekim1414",
+    "git-widget-placeholder": "2024Oct20-1535",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/orhankalayci2/IdeaProjects/temp/fibnum2/FibNum2025Oct19-2/FibNum2025Oct19-2/src/main/java/com/FibNum2025Oct19/Main.java"
   }
@@ -90,11 +91,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciGeneratorTest.testFibonacciTimeoutFor44" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FibNum2025Oct19-2" />
+    <configuration name="FibonacciGeneratorTest.testFibonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FibonacciGeneratorTest" />
-      <option name="METHOD_NAME" value="testFibonacciTimeoutFor44" />
+      <option name="METHOD_NAME" value="testFibonacci(com.FibNum2025Oct19.FibonacciGenerator)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,7 +103,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FibonacciGeneratorTest" />
-        <item itemvalue="JUnit.FibonacciGeneratorTest.testFibonacciTimeoutFor44" />
+        <item itemvalue="JUnit.FibonacciGeneratorTest.testFibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -156,55 +156,7 @@
       <option name="project" value="LOCAL" />
       <updated>1729361981365</updated>
     </task>
-    <task id="LOCAL-00006" summary="iterativeMethod added">
-      <option name="closed" value="true" />
-      <created>1729367416972</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1729367416972</updated>
-    </task>
-    <task id="LOCAL-00007" summary="coverage reached - recursive method deleted">
-      <option name="closed" value="true" />
-      <created>1729367744829</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1729367744829</updated>
-    </task>
-    <task id="LOCAL-00008" summary="coverage problem - recursive method added again">
-      <option name="closed" value="true" />
-      <created>1729422524516</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1729422524516</updated>
-    </task>
-    <task id="LOCAL-00009" summary="coverage problem - recursive method added again">
-      <option name="closed" value="true" />
-      <created>1729422629228</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1729422629228</updated>
-    </task>
-    <task id="LOCAL-00010" summary="coverage limit reduced to 60%">
-      <option name="closed" value="true" />
-      <created>1729422722596</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1729422722596</updated>
-    </task>
-    <task id="LOCAL-00011" summary="coverage limit reduced to 60%">
-      <option name="closed" value="true" />
-      <created>1729426199861</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1729426199861</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,14 +176,10 @@
     <MESSAGE value="Recursive Calculation" />
     <MESSAGE value="Test coverage checks  added" />
     <MESSAGE value="main.java deleted" />
-    <MESSAGE value="iterativeMethod added" />
-    <MESSAGE value="coverage reached - recursive method deleted" />
-    <MESSAGE value="coverage problem - recursive method added again" />
-    <MESSAGE value="coverage limit reduced to 60%" />
-    <option name="LAST_COMMIT_MESSAGE" value="coverage limit reduced to 60%" />
+    <option name="LAST_COMMIT_MESSAGE" value="main.java deleted" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FibNum2024Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729425612899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/FibNum2024Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729427865086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/FibNum2025Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729362396482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
