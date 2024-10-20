@@ -2,7 +2,7 @@ package com.FibNum2025Oct19;
 
 public class FibonacciGenerator {
 
-    FibonacciCalculator fibonacciCalculator = new RecursiveFibonacciCalculator() ;
+    FibonacciCalculator fibonacciCalculator = new IterativeFibonacciCalculator() ;
 
     public int getFibNum(int index) {
         if (index < 0) {
