@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="iterativeMethod added">
+    <list default="true" id="a7980d93-d62e-48c8-9667-be660aec9ddf" name="Changes" comment="coverage reached - recursive method deleted">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/FibonacciCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/IterativeFibonacciCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/RecursiveFibonacciCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/FibonacciGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FibNum2025Oct19/FibonacciGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FibonacciGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="user/orhan/fibnum192245" />
+        <entry key="$PROJECT_DIR$" value="user/orhan/fibnum19Ekim2253" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +76,7 @@
     "JUnit.FibonacciGeneratorTest.testFibonacciTimeoutFor44.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "user/orhan/fibnum19Ekim2253",
+    "git-widget-placeholder": "user/orhan/fibnum20Ekim1307",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/orhankalayci2/IdeaProjects/temp/fibnum2/FibNum2025Oct19-2/FibNum2025Oct19-2/src/main/java/com/FibNum2025Oct19/Main.java"
   }
@@ -165,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729367416972</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="coverage reached - recursive method deleted">
+      <option name="closed" value="true" />
+      <created>1729367744829</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729367744829</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,10 +200,11 @@
     <MESSAGE value="Test coverage checks  added" />
     <MESSAGE value="main.java deleted" />
     <MESSAGE value="iterativeMethod added" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterativeMethod added" />
+    <MESSAGE value="coverage reached - recursive method deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="coverage reached - recursive method deleted" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FibNum2024Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729367352556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/FibNum2024Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729421629471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/FibNum2025Oct19_2$FibonacciGeneratorTest.ic" NAME="FibonacciGeneratorTest Coverage Results" MODIFIED="1729362396482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
