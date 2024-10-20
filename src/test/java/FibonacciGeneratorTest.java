@@ -1,4 +1,6 @@
 import com.FibNum2025Oct19.FibonacciGenerator;
+import com.FibNum2025Oct19.IterativeFibonacciCalculator;
+import com.FibNum2025Oct19.RecursiveFibonacciCalculator;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -11,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 public class FibonacciGeneratorTest {
 
-    private final FibonacciGenerator fibonacciGenerator = new FibonacciGenerator();
+    private final FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(new IterativeFibonacciCalculator());
 
     @ParameterizedTest
     @CsvSource({
